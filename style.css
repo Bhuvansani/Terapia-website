@@ -1,0 +1,325 @@
+body{
+    margin:0;
+}
+html{
+    background-color: rgb(238, 236, 236);
+}
+h1,h2{
+    font-family: "Playfair Display", serif;
+}
+.topline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(30, 30, 62);
+    height: 50px;
+}
+.left-ele{
+    margin-left: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+.location-left{
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.button{
+    margin-right: 13px;
+    float: right;
+    font-size: 20px;
+    border-radius: 50px; 
+    cursor:pointer;
+    background-color: white;
+}
+.button:hover{
+    color: white;
+    background-color:#15b9d9;
+}
+.terapia{
+    top:0px;
+    background-color: white;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: none;
+    height: 85px;
+    display: flex;
+}
+.terapia-icon{
+    font-weight: bold;
+    display: flex;
+    display: block;
+    color:#15b9d9;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.lines{
+    color: gray;
+    font-size: 20px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+.lines:hover{
+    color:#15b9d9;
+}
+#book-button{
+    border:solid;
+    border-color: #15b9d9;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    width: 210px;
+    background-color:#15b9d9;
+    padding-left: 10px;
+    padding-right: none;
+    cursor: pointer;
+    border-radius: 25px
+}
+#book-button:hover{
+    border-color:#15b9d9;
+    background-color: white;
+    color: #15b9d9;
+}
+.img-text{
+    position: relative;
+  text-align: center;
+  color: white;
+}
+.text{
+    padding-top: 25px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    text-align: center;
+    font-size: 16px;
+    width: 75%;
+}
+.para-text{
+    display: inline;
+    margin-top: none;
+    font-size: 90px;
+}
+.bigline{
+    font-size: 23px;
+}
+.next-page{
+    margin-top: 90px;
+    margin-left: 170px;
+    text-align: center;
+    margin-bottom:none;
+}
+.descript{
+    margin: 90px;
+    text-align: center;
+    font-size: 25px;
+    width:900px;
+}
+
+.service-para{
+    margin-top: none;
+    margin-bottom: none;
+}
+.read-all{
+    display: flex;
+    margin-top:none;
+}
+.pic1{
+    width: 300px;
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
+    object-fit: contain;
+}
+.read-more1{
+    background-color: white;
+    width: 300px;
+    margin-left: 30px;
+    border-radius: 17px;
+}
+.improve-text{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.read-button{
+    border:solid;
+    font-size: 18px;
+    background-color:#15b9d9;
+    border-color: #15b9d9;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    cursor:pointer;
+}
+.read-button:hover{
+    background-color: white;
+    color: #15b9d9;
+}
+.service-button{
+    border:solid;
+    border-color:#15b9d9 ;
+    color: white;
+    padding-top: 15px;
+    padding-left: 30px;
+    background-color: #15b9d9;
+    font-size: 19px;
+    height: 50px;
+    width: 190px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.service-button:hover{
+    color: #15b9d9;
+    background-color: white;
+}
+.about-us{
+    margin-top: 100px;
+    display: flex;
+}
+.about{
+    border-radius: 20px;
+    margin-left: 125px;
+}
+.about-text{
+    margin-left: 30px;
+}
+.about-para{
+    color:#efa286;
+    font-size: 20px;
+}
+.appointment-page{
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+.form{
+    padding: 3rem;
+    border: solid;
+    border-color: black;
+}
+.form-submit-button{
+    color: white;
+    border-radius: 10px;
+    background-color: #15b9d9;
+    border:solid;
+    border-color: #15b9d9;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+.form-submit-button:hover{
+    background-color: white;
+    color: #15b9d9;
+}
+.display-input{
+    font-size: 15px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: solid;
+    border-color: #15b9d9;
+    padding-left: .375rem;
+    padding-right: .75rem;
+    margin-right: 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+.appt-sec{
+    display: block;
+    width: 50%;
+}
+.appt-text{
+    margin-bottom: 0;
+}
+.our-team{
+    margin-top: 150px;
+}
+.team-text{
+    text-align: center;
+    margin-left: 325px;
+    width: 800px;
+}
+.team1{
+    border-radius: 15px;
+    margin-left: 50px;
+    border:solid;
+    border-color: #15b9d9;
+    width: 300px;
+}
+.blog-page{
+    margin-top: 100px;
+}
+.blog-text{
+    text-align: center;
+    margin-left: 325px;
+    justify-content: center;
+    width: 800px;
+}
+.blog-fix{
+    padding-left: 15px;
+}
+.blog1{
+    display: inline-block;
+    width: 400px;
+    border: solid;
+    border-radius: 15px;
+    margin-left: 60px;
+    border-color:#15b9d9;
+    background-color: white;
+    height: 580px;
+}
+.blog-line{
+    display: inline-block;
+}
+.last-page{
+    height: 450px;
+    background-color: black;
+    margin-top: 100px;
+    display: flex;
+}
+.terapia-last{
+    font-size: 20px;
+    padding-top: 70px;
+    color: white;
+    margin-left: 67px;
+    width: 250px;
+    line-height: 30px;
+}
+a{
+    color: grey;
+    cursor: pointer;
+}
+a:hover{
+    color: #15b9d9;
+}
+.designed{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(30, 30, 62);
+}
+.designed-text{
+    font-size: 18px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.link-transform{
+    transition: 0.5s;
+}
+.link-transform:hover{
+    font-size: 23px;
+}
